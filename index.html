@@ -1,29 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CSS Exercises 1</title>
-        <link rel='stylesheet' type='text/css' href='exercise1.css'/>
-    </head>
-    <body>
-        <h1>Make me red!</h1>
+<head>
+<title>Change behaviour. Improve adherence.</title>
+  <link rel='stylesheet' href='http://bitballoon.scdn4.secure.raxcdn.com/css/fd7ea095829026f5e41f74a6b57440a144cb7def/bootstrap-3.3.4-dist/css/bootstrap.css'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='http://bitballoon.scdn4.secure.raxcdn.com/css/7c76e1e8c6df12a3c89f3d17fe6c3819b0eb5764/main.css'/>
+  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container-fluid" id="page-title">
+    <div class="container text-center">
+        <h1>Change behaviour. Improve adherence.</h1>
+        <h2>An intervention for people living with bronchiectasis</h2>
+    </div>
+    <div class="container text-center" id="main-logo">
+        <img src="http://bitballoon.scdn4.secure.raxcdn.com/images/4e07ce81453dcd52f968bb106908bb3fa61ebf40/discussion.png">
+        <form role='form' method='post'><input type='hidden' name='form-name' value='form 1' />
+            <label for="email">Receive updates</label>
+            <input type="text" name="email" placeholder="Enter your email">
+            <button type="submit" class='btn btn-success'>Send</button>
+        </form>
+    </div>
+</div>
+    <div class="container text-center">
+        <div class="row information">
+            <div class="col-sm-4">
+                <h4>What is bronchiectasis?</h4>
+                <img src='images/airways.png'class="img-rounded center-block" width="140">
+                <p>Bronchiectasis is a lung condition caused by damage to the airways in the lungs. When the airways become damaged they widen and sputum can collect in the widened areas. These areas can then become infected as bacteria grow in the sputum, causing recurrent lung infections and further damage to the airways.</p>
+                <a href="http://www.blf.org.uk/page/bronchiectasis">More about bronchiectasis</a>
+            </div>
+            <div class="col-sm-4">
+                <h4>Why tackle adherence?</h4>
+                <img src='images/taking-med.jpeg'class="img-rounded center-block" width="140">
+                </br><p>It has been demonstrated that adherence to treatment by patients with bronchiectasis is low. In a study of patients with the condition who were prescribed inhaled antibiotics for <em>Pseudomonas aeruginosa</em> infection, 53% were found to be adherent to inhaled antibiotics and 41% were found to be adherent to airway clearance. Adherence to inhaled antibiotics was found to be associated with fewer pulmonary exacerbations. Therefore, by improving adherence we hope to reduce frequency and number of chest infections that patients have and, hopefully, improve their quality of life.</p>
+                <a href="https://www.nice.org.uk/guidance/cg76">More about adherence</a>
+            </div>
+            <div class="col-sm-4">
+                <h4>Changing behaviour</h4>
+                <img src='images/people.png'class="img-rounded center-block" width="140">
+                </br><p>Researchers working in the field of behavioural science have developed a means of identifying the theory behind behaviour change in particular contexts that is both understandable and accessible to non-psychologists. The theoretical domains framework (TDF) organises 84 constructs of behaviour change into 14 domains. The TDF can therefore be used to understand the factors that might influence a change in behaviour.</p>
+                <a href="http://www.ucl.ac.uk/behaviour-change">More about behaviour change</a>
+            </div>
+        </div>
+            <div class="container=fluid" id="contact-info"> 
+                <h3>The researcher</h3>
+                <img src="http://www.jackspargo.com/img/mo-circle.png" width="140">
+                <p> My name is Maureen O'Sullivan and I am currently conducting a PhD research project on the subject of treatment adherence in bronchiectasis. I am developing an intervention to improve patients' adherence to their treatment using behaviour change techniques that have been identified through qualitative analysis. The intervention is still in the early stages of development, but please contact me if you are interested in hearing more about my methods.</p>
+                <h4>Contact me</h4>
+                <address>
+                <strong>Maureen O'Sullivan</strong><br>
+                School of Pharmacy<br>
+                Queen's University Belfast<br>
+                <a href="mailto:#">mosullivan15@qub.ac.uk</a>
+                </address>
+            <div id="social-buttons">
+                <button class="btn btn-twitter">Twitter</button>
+                <button class="btn btn-linkedin">LinkedIn</button>
+            </div>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        <p>I am a paragraph I should be blue, Helvetica, size 16px.</p>
+  ga('create', 'UA-60808145-1', 'auto');
+  ga('send', 'pageview');
+    </script>
+</body>
 
-        <ul>
-            <li>This is an unordered list.</li>
-            <li>All items in this list should have a yellow background.</li>
-            <li>Just the items though - not the whole list!</li>
-        </ul>
-
-        <h2>Make me green on an orange background</h2>
-
-        <p>I am a paragraph I should be blue, Helvetica, size 16px.</p>
-
-        <ol>
-            <li>This is an ordered list.</li>
-            <li>All items in this list should have a teal background.</li>
-            <li>Just the items thought - not the whole list!</li>
-        </ol>
-
-    </body>
-</html>

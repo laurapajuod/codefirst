@@ -1,0 +1,74 @@
+h1 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 60px;
+    padding-top: 25px
+}
+
+h2 {
+    color: #104e8b;
+    font-family: 'Gloria Hallelujah'
+}
+
+.information h4 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 26px;
+    padding-top: 30px
+}
+
+.information img {
+    padding: 20px
+}
+
+.information {
+    padding-bottom: 20px
+}
+
+#page-title {
+    background-color: #d4edff
+}
+
+.container form {
+    padding-bottom: 30px
+}
+
+.container label {
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px
+}
+
+#contact-info img {
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+#contact-info p {
+    font-size: 20px
+}
+
+#contact-info {
+    padding-top: 10px;
+    background-color: #d4edff
+}
+
+#contact-info h3 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 30px
+}
+
+#contact-info h4 {
+    font-family: 'Gloria Hallelujah';
+    font-size: 20px
+}
+
+.btn-twitter {
+    background-color: #00acee;
+    border-color: #009ad5;
+    color: #fff
+}
+
+.btn-linkedin {
+    background-color: #007BB6;
+    color: #fff
+}
+
+
